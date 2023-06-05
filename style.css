@@ -1,0 +1,83 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* default is content-box which will cause padding to be added to the width, not inducted in */
+}
+
+/* BASE STYLES */
+.app{
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    color: #000;
+    background-color: #EDF1F3;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* STYLES */
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.title{
+    margin-right: auto;
+    padding-left: 40px;
+    font-size: 65px;
+}
+
+.nav__list{
+    display: flex;
+    padding-right: 40px;
+    column-gap: 100px;
+    font-size: 17px;
+}
+
+/* MAIN */
+
+.main{
+    padding: 50px 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.main__block{
+    background-color: #FFF;
+    justify-content: s;
+    padding: 10px 20px;
+}
+
+.block__list {
+    padding-left: 15px;
+}
+.promo{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 70px;
+    width: 920px;
+    height: 610px;
+    padding: 30px;
+    background-image: url(promo.jpg);
+}
+
+.emphasis{
+    font-size: 125%;
+    color: #b60303;
+}
+
+
+ 
